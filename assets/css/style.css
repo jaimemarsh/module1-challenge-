@@ -15,32 +15,33 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Horiseon */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* deleted .header h1 , not needed */
-.header h1 .seo {
+.seo {
     color: #4ea5d4;
 }
 
 /* changed div to nav */
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
-/* changed div to nav */
-.header nav ul {
+/* renamed ul*/
+ul {
     list-style-type: none;
 }
 
-/* changed div to nav */
-.header nav ul li {
+/* renamed li */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -48,18 +49,6 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-/* made font bigger */
-p {
-    font-size: 22px;
-    color: white;
-}
-
-/* deleted all seperated h2, this will now change all of them at once */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* need to change */
@@ -96,6 +85,18 @@ h2 {
     margin-right: 25px;
 }
 
+/* deleted all seperated h2, this will now change all of them at once */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* made font bigger */
+p {
+    font-size: 22px;
+    color: white;
+}
+
 /* changes middle image to float right as previously done */
 #floatright {
     max-height: 200px;
@@ -115,17 +116,20 @@ aside {
     background-color: #2589bd;
 }
 
+/* combined all sections into one */
 .benefit-text {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
 }
 
-.benefit-text h3 {
+/* combined all sections into one */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* combined all sections into one */
 .benefit-text img {
     display: block;
     margin: 10px auto;
