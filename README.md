@@ -1,2 +1,4 @@
 # module1-challenge-
-On-the-job challenge from module one focusing on accessibility 
+An on-the-job challenge from module one focusing on accessibility. To make the webpage more accessible I used semnatic HTML elements and alternative text (alt) for images. This is to help a screen reader with scaning the document. Semantic elements help the screen-reader, or users in general, recognizes the layout of the elements and how to properly go over the webpage. The alternative text is for the same reason, but to read the image so the user gets the full experience. This is for the visually impaired.
+In the CSS code I rewrote or condensed many of the styles so code doesn't repeat and it is more efficent. In the HTML document I changed many of the elements as I stated, but also the order to be in either a sequential order or a more logial order. 
+The title of the page was changed from website to Horiseon.
